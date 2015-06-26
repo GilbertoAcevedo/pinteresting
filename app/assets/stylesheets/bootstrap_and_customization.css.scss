@@ -15,7 +15,6 @@ $jumbotron-bg: 											#bdc3c7;
 
 $font-family-sans-serif:						'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-
 @import 'bootstrap';
 
 .center{
@@ -27,3 +26,6 @@ $font-family-sans-serif:						'Lato', 'Helvetica Neue', Helvetica, Arial, sans-s
 	font-family: 'Lobster' cursive;
 }
 
+.inner-div{
+	padding: 500px;
+}
