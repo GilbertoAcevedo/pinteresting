@@ -15,7 +15,10 @@ $jumbotron-bg: 											#bdc3c7;
 
 $font-family-sans-serif:						'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
- @import 'bootstrap';
+
+
+$icon-font-path: 'bootstrap/';
+@import 'bootstrap';
 
 .center{
 	text-align: center;
