@@ -1,32 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-$body-bg:     											#ecf0f1;
-$navbar-default-bg:  								#e74c3c;
-$navbar-default-link-hover-color:  	#3498db;
-$navbar-default-link-color:  				#ecf0f1;
-$navbar-height:											45px;
-$navbar-default-brand-color:				#ecf0f1;
-
-$brand-primary:											#e74c3c;
-$brand-warning:											#FF8100;
-
-$jumbotron-bg: 											#bdc3c7;
-
 $font-family-sans-serif:						'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-
-
-
-@import "bootstrap-sprockets";
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+body{
+	background-color:	#ecf0f1;
+}
 .center{
 	text-align: center;
 }
-
 .navbar-brand{
 	font-size:		30px;
 	font-family: 'Lobster' cursive;
 }
-
+.navbar-default {
+  background-color: #e74c3c;
+}
+.navbar-default .navbar-brand{
+	color: #ecf0f1;
+}
+.jumbotron{
+	background-color: #bdc3c7;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #ecf0f1;
+    color: #3498db;
+}
+.navbar{
+	height: 45px;
+}
+.btn-primary {
+  background-color: #FF0000;
+}
+.btn-primary:hover {
+  background-color: #C60000;
+}
+.btn-warning {
+  background-color: #FF8100;
+}
+.btn-warning:hover {
+  background-color: #ED7800;
+}
