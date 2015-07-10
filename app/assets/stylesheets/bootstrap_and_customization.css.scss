@@ -35,6 +35,7 @@ body{
 }
 .btn-primary {
   background-color: #FF0000;
+  color: #ecf0f1;
 }
 .btn-primary:hover {
   background-color: #C60000;
@@ -44,4 +45,7 @@ body{
 }
 .btn-warning:hover {
   background-color: #ED7800;
+}
+.panel  a:enabled {
+    color: #e74c3c;
 }
