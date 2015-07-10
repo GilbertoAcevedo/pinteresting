@@ -33,12 +33,20 @@ body{
     background-color: #ecf0f1;
     color: #3498db;
 }
-.btn-primary {
+.btn-danger {
   background-color: #FF0000;
+  border-color: #FF0000;
   color: #ecf0f1;
 }
-.btn-primary:hover {
+.btn-danger:hover {
   background-color: #C60000;
+  border-color: #C60000;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #C60000;
+  border-color: #C60000;
 }
 .btn-warning {
   background-color: #FF8100;
@@ -49,3 +57,4 @@ body{
 .panel  a:enabled {
     color: #e74c3c;
 }
+
